@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="span12">
+    <a href="/" class="title_link"><h1>Sam Meier</h1></a>
+    <h2 class="subtitle">Data Analysis &amp; Visualization</h2>
+  </div>
+</div>
+
+<div class='row'>
+  <div class="span12">
+    <h1>{{ page.title }}</h1>
+    <!-- <h2 class="subtitle">by Sam Meier</h2> -->
+    <div class="date">created on {{ page.date | date: "%B %d, %Y" }}</div>
+    <br/><br/>
+    {{ content }}
+  </div>
+</div>

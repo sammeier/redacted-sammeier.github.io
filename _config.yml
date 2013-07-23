@@ -1,0 +1,15 @@
+source:      .
+destination: ./_site
+includes:    ./_includes
+
+pygments:    true
+permalink:   /:title.html
+
+#base_url: http://vlandham.com
+#base_url: /
+description: ""
+
+rdiscount:
+  extensions: []
+  
+exclude: ['README.markdown', 'new.rb', 'template.markdown']

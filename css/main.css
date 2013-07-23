@@ -1,0 +1,108 @@
+html, body {
+	font: 16px;
+	font-weight:300;
+	font-family: 'PT Serif', Georgia, Times, 'Times New Roman', serif;
+	margin:0;
+	padding:0;
+	background-image:url('../img/cream_pixels.png');
+	background-repeat:repeat;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Gill Sans', 'Open Sans', sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  margin-top: 5px;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Open Sans', sans-serif;
+  font-size: 3.5em;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  margin-top: 5px;
+}
+
+h2.subtitle {
+  font-family: 'Gill Sans', 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #838383;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  margin-top: -8px;
+  text-align: left;
+}
+
+h3.subtitle {
+	font-family: 'Gill Sans', 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size:28px;
+	color:#0a83c2;
+	font-weight:300;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+#content {
+	margin-left:auto;
+	margin-right:auto;
+  background-color: white;
+  min-height: 600px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.seperator {
+  clear: both;
+  height: 30px;
+  width: 100%;
+}
+
+.post_thumbnail {
+  width: 280px;
+  height: 120px;
+  border: 1px solid #aaa;
+  float:right;
+  margin-top: 40px;
+}
+
+.date {
+  font-family: 'Gill Sans', 'Open Sans', sans-serif;
+  clear: both;
+  font-size: 14px;
+  font-weight: 300;
+  color: #666666;
+  /* margin-top: -10px; */
+  margin-left: 0px;
+}
+
+#footer {
+  background-color: white;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+#footer a {
+  font-family: 'Gill Sans', 'Open Sans', sans-serif;
+  color: #7a7a7a;
+}
+
+.title_link {
+  color: #838383;
+}
